@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import com.alibaba.fastjson.JSONObject;
 import com.roger.processor.Processor;
 
-@Service(value="customerService")
+@Service(value="customerProcessor")
 public class CustomerProcessor implements Processor {
 
 	@Override
