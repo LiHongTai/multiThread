@@ -7,7 +7,7 @@ public class WorkExecutorRepository {
 	
 	private final ConcurrentHashMap<String, ThreadPoolExecutor> threadPoolExecutors;
 
-	public WorkExecutorRepository() {
+	private WorkExecutorRepository() {
 		threadPoolExecutors = new ConcurrentHashMap<>();
 	}
 	/**

@@ -13,8 +13,6 @@ public class TaskDriverTest extends BaseTestSuitCase{
 	@Test
 	public void testRun() {
 		taskDriver.run();
-		while(true) {
-			
-		}
+		
 	}
 }
